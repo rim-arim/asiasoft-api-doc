@@ -9,27 +9,16 @@
 # Endpoint types
 ### Secure endpoints
 All secure endpoints require [authentication](#constructing-the-request) and use the method GET.
-
-* [GET /api/token/mint-history](#get-apiminthistory)
-* [GET /api/token/burn-history](#get-apiburnhistory)
-* [GET /api/token/transfer-history](#get-apitransferhistory)
-* [GET /api/token/balance](#get-apibalance)
-* [GET /api/tx-status](#get-apitx-status)
+* [GET /api/asiasoft/balance](#get-apiasiasoftbalance)
+* [GET /api/asiasoft/owner](#get-apiasiasoftowner)
+* [GET /api/asiasoft/token-ids](#get-apiasiasofttokenids)
+* [GET /api/asiasoft/tx-status](#get-apiasiasofttxstatus)
 
 All secure endpoints require [authentication](#constructing-the-request) and use the method POST.
-* [POST /api/token/mint](#get-apimint)
-* [POST /api/token/burn](#get-apiburn)
-* [POST /api/token/transfer](#get-apitransfer)
-* [POST /api/token/add-blacklist](#get-apiaddblacklist)
-* [POST /api/token/revoke-blacklist](#get-apirevokeblacklist)
-* [POST /api/token/set-owner](#get-apisetowner)
-* [POST /api/token/set-router](#get-apisetowner)
-* [POST /api/hot/transfer](#get-apitransfer)
-* [POST /api/hot/set-owner](#get-apisetowner)
-* [POST /api/router/transfer](#get-apitransfer)
-* [POST /api/router/set-hotwallet](#get-apisethotwallet)
-* [POST /api/router/set-owner](#get-apisetowner)
-* [POST /api/router/set-symboltoken](#get-apisetsymboltoken)
+* [POST /api/asiasoft/mint](#get-apimint)
+* [POST /api/asiasoft/transfer](#get-apitransfer)
+* [POST /api/asiasoft/burn](#get-apiburn)
+
 
 
 # Constructing the request
